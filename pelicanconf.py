@@ -12,6 +12,8 @@ SITESUBTITLE = u'This is where I do test things'
 SITEURL = u'/'
 DEFAULT_LANG = u'en'
 DEFAULT_CATEGORY = 'blog'
+CLAIM_GOOGLE = "Bk4Z5ucHLyPXqlZlj5LzANpYBBSvxqBW4E8i-Kwf-bQ"
+CLAIM_BING = "8FF1B025212A47B5B27CC47163A042F0"
 
 
 LANDING_PAGE_ABOUT = {'title': 'My blog',
@@ -47,18 +49,10 @@ AMAZON_ONELINK = "b63a2115-85f7-43a9-b169-5f4c8c275655"
 # DISQUS_DISPLAY_COUNTS = True
 
 
-# Customize the files for Claiming your website on search engines
-EXTRA_PATH_METADATA = {
-    # Customize filename once done the git mv step as instructed on README
-    'extra/google3bc953001343abe6': {'path': 'google3bc953001343abe6.html'},
-    'extra/BingSiteAuth.xml': {'path': 'BingSiteAuth.xml'}
-}
+# Extra files customization
+EXTRA_PATH_METADATA = {}
 
-STATIC_PATHS = [
-    'images',
-    'extra/google3bc953001343abe6', ## Customize filename once done the git mv step as instructed on README
-    'extra/BingSiteAuth.xml'
-]
+STATIC_PATHS = [ 'images' ]
 
 
 ## ONLY TOUCH IF YOU KNOW WHAT YOU'RE DOING!

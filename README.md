@@ -81,13 +81,13 @@ After some seconds, <https://travis-ci.org> will start showing that a new build 
   - `YOURURL/sitemap.xml` can be submitted
   - [Google Search Console](https://search.google.com/search-console/)
     - Will require you to claim the website as yours, for doing so:
-      - Download Google claiming HTML to a folder
-      - `git mv content/extra/google3bc953001343abe6 content/extra/googleYOURHEXA` (without `.html`)
-      - Overwrite resulting file above with contents of the downloaded one
-      - customize `pelicanconf.py` to match the HEXA you received, in the line that says:
-        - `'extra/google3bc953001343abe6': {'path': 'google3bc953001343abe6.html'},`
+      - Check HEADER method
+      - customize `pelicanconf.py` to match the value you received, in the line that says:
+        - `CLAIM_GOOGLE = 'XX'`
   - [Bing Webmaster](https://www.bing.com/webmaster/)
-    - Overwrite the file `content/extra/BingSiteAuth.xml` with the file you received
+      - Check HEADER method
+      - customize `pelicanconf.py` to match the value you received, in the line that says:
+        - `CLAIM_BING = 'XX'`
 - Review other settings in `pelicanconf.py` to customize your blog name, your name, twitter handle, google analytics ID or others, please do check [Pelican-Elegant documentation](https://pelican-elegant.github.io) for more information on what can be done.
 
 ## Feedback and wrap up
