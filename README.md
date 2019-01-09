@@ -38,7 +38,7 @@ Blog will be using:
 - Generate a [github token](https://github.com/settings/tokens/new) for your account and save securely the value obtained:
   ![Generate token](2019-01-09-11-33-12.png)
 - Go to [travis-ci.org](https://travis-ci.org/) and login with your github account.
-  - Enable repository builds:
+  - Enable repository builds (in your profile):
       ![Enable travis repository builds](2019-01-09-11-31-13.png)
   - And click on 'settings' once done, and define a new environment variable named `GHTOKEN` with the value obtained in the prior step
       ![Define environment variable](2019-01-09-11-32-18.png)
@@ -48,12 +48,15 @@ Blog will be using:
 - Clone the resulting repository to your system, for example:
   - `git clone https://github.com/iranzo/blog-o-matic.git`
   - change to the `source` branch that will contain the code that we'll be using for updating the website.
+    - `git checkout source`
 
 - Edit new articles in `content/` based on the one already provided.
 
 ## Test it
 
 As of this step, your repository should be already published on <https://githubusername.github.io/> with the 'sample' content
+
+You're ready to write a new article, use 'welcome.md' as an example so that you keep useful headers like category, tags, autho, title, publish date, etc (YAML preamble) and save it as 'yourdesiredname.md'.
 
 Once you've written your new article in 'content' folder, perform:
 
