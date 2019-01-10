@@ -116,6 +116,7 @@ MARKDOWN = {
             'permalink': 'true'
         },
         'markdown.extensions.meta': {},
+        'markdown.extensions.admonition': {},
     },
     'output_format': 'html5',
 }
