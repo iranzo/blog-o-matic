@@ -189,16 +189,6 @@ PAGINATION_PATTERNS = (
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-# better codeblock
-MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.codehilite': {'css_class': 'highlight', 'linenums': False},
-        'markdown.extensions.extra': {},
-        'markdown.extensions.meta': {},
-    },
-    'output_format': 'html5',
-}
-
 # sitemap
 SITEMAP = {
     'format': 'xml',
