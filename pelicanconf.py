@@ -52,6 +52,10 @@ AMAZON_ONELINK = "b63a2115-85f7-43a9-b169-5f4c8c275655"
 # Extra files customization
 EXTRA_PATH_METADATA = {}
 
+EXTRA_TEMPLATES_PATHS = [
+    "plugins/revealmd/templates",  # eg: "plugins/revealmd/templates"
+]
+
 STATIC_PATHS = [ 'images' ]
 
 
@@ -93,7 +97,7 @@ PLUGIN_PATHS = ['plugins']
 
 PLUGINS = ['sitemap', 'extract_toc', 'tipue_search', 'liquid_tags.img',
            'neighbors', 'render_math', 'related_posts', 'share_post',
-           'series', 'assets', 'post_stats']
+           'series', 'assets', 'post_stats', 'revealmd']
 
            # 'better_codeblock_line_numbering'
            # 'better_figures_and_images'
