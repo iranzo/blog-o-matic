@@ -25,7 +25,6 @@ git module elegant:
 
 git module revealmd:
     url: https://github.com/iranzo/pelican-revealmd/
-    rev: next
 
 git module plugins:
     url: https://github.com/getpelican/pelican-plugins.git
