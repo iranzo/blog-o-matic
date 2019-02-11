@@ -33,8 +33,10 @@ PROJECTS = [{'name': 'Blog-o-matic', 'url': 'https://github.com/iranzo/blog-o-ma
 # LINKS = (('Redken on telegram', 'https://t.me/redken_bot'),
 #          ('RHJobs channel on TG', "https://t.me/rhjobs"),)
 
-# SOCIAL = (('Iranzo twitter', 'http://twitter.com/iranzop'),
-#           ('Iranzo github', 'http://github.com/iranzo'),)
+
+# Keep 'name' like 'twitter' with what 'FontAwesome has for putting the right icon'
+# SOCIAL = (('twitter', 'http://twitter.com/iranzop'),
+#           ('github', 'http://github.com/iranzo'),)
 
 
 # TWITTER_USERNAME = "fillit"
