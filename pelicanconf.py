@@ -30,13 +30,15 @@ PROJECTS = [{'name': 'Blog-o-matic', 'url': 'https://github.com/iranzo/blog-o-ma
              'description': 'A Telegram bot with support for Karma, RSS Feeds, Quotes, etc'}]
 
 
-# LINKS = (('Redken on telegram', 'https://t.me/redken_bot'),
-#          ('RHJobs channel on TG', "https://t.me/rhjobs"),)
-
+LINKS = (('Redken on telegram', 'https://t.me/redken_bot'),
+         ('RHJobs channel on TG', "https://t.me/rhjobs"),)
 
 # Keep 'name' like 'twitter' with what 'FontAwesome has for putting the right icon'
-# SOCIAL = (('twitter', 'http://twitter.com/iranzop'),
-#           ('github', 'http://github.com/iranzo'),)
+
+SOCIAL = (('Twitter', 'http://twitter.com/iranzop'),
+          ('github', 'http://github.com/iranzo'),
+          ('linkedin', 'https://www.linkedin.com/in/iranzo/'),
+          ('RSS', SITEURL + '/feeds/all.atom.xml'),)
 
 
 # TWITTER_USERNAME = "fillit"
