@@ -42,7 +42,7 @@ SOCIAL = (('Twitter', 'http://twitter.com/iranzop'),
 
 # TWITTER_USERNAME = "fillit"
 # Update if you use amazon links
-AMAZON_ONELINK = "b63a2115-85f7-43a9-b169-5f4c8c275655"
+AMAZON_ONELINK = "23824450-ef77-4537-9259-8590465886f1"
 
 # GOOGLE_ANALYTICS tracking ID
 # GOOGLE_ANALYTICS = "UA-81705-12"
