@@ -61,6 +61,20 @@ EXTRA_TEMPLATES_PATHS = [
 
 STATIC_PATHS = [ 'images' ]
 
+# Photo Gallery plugin
+PHOTO_LIBRARY = "gallery-source/"
+PHOTO_GALLERY = (1024, 768, 80)
+PHOTO_ARTICLE = (760, 506, 80)
+PHOTO_THUMB = (192, 144, 60)
+PHOTO_SQUARE_THUMB = False
+PHOTO_RESIZE_JOBS = 5
+PHOTO_WATERMARK = True
+PHOTO_WATERMARK_TEXT = "© Pablo Iranzo Gómez (https://iranzo.github.io)"
+PHOTO_WATERMARK_IMG = ''
+PHOTO_EXIF_KEEP = False
+PHOTO_EXIF_REMOVE_GPS = True
+PHOTO_EXIF_COPYRIGHT = 'COPYRIGHT'
+# PHOTO_EXIF_COPYRIGHT_AUTHOR = 'Your Name Here' (Defaults to Author)
 
 ## ONLY TOUCH IF YOU KNOW WHAT YOU'RE DOING!
 ## ---------------------------------------------------------------------
@@ -100,7 +114,7 @@ PLUGIN_PATHS = ['plugins']
 
 PLUGINS = ['sitemap', 'extract_toc', 'tipue_search', 'liquid_tags.img',
            'neighbors', 'render_math', 'related_posts', 'share_post',
-           'series', 'assets', 'post_stats', 'revealmd']
+           'series', 'assets', 'post_stats', 'revealmd', 'photos']
 
            # 'better_codeblock_line_numbering'
            # 'better_figures_and_images'

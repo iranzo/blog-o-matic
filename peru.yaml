@@ -15,6 +15,7 @@ imports:
     plugins|series: plugins/
     plugins|assets: plugins/
     plugins|post_stats: plugins/
+    plugins|photos: plugins/
     revealmd: plugins/revealmd/
 
 
@@ -69,3 +70,6 @@ rule assets:
 
 rule post_stats:
     pick: post_stats
+
+rule photos:
+    pick: photos
