@@ -22,6 +22,7 @@ imports:
 
 git module elegant:
     url: https://github.com/Pelican-Elegant/elegant.git
+    rev: next
 
 git module revealmd:
     url: https://github.com/iranzo/pelican-revealmd/
