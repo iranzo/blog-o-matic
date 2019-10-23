@@ -16,6 +16,9 @@
 
 <!-- /TOC -->
 
+[![Build Status](https://travis-ci.com/iranzo/blog-o-matic.svg?branch=source)](https://travis-ci.com/iranzo/blog-o-matic)
+
+
 <a id="markdown-introduction" name="introduction"></a>
 ## Introduction
 
