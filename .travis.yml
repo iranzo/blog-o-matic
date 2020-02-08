@@ -21,6 +21,7 @@ script:
 - make publish
 
 after_success:
+- touch output/.nojekyll
 - cp README.md output/
 - mv *.png output/
 - sed -i "s#https://github.com#https://${GHTOKEN}@github.com#g" .git/config
