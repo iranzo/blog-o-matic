@@ -84,7 +84,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Madrid'
 
 # Put as draft content in the future
-WITH_FUTURE_DATES = False
+WITH_FUTURE_DATES = True
 
 # Put full text in RSS feed
 RSS_FEED_SUMMARY_ONLY = False
