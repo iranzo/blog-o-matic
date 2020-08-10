@@ -7,8 +7,8 @@ ghp-import
 markdown
 pelican
 peru
+Piexif
+Pillow
 pysvg
 typogrify
 webassets
-Pillow
-Piexif
