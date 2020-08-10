@@ -21,7 +21,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-pip-
 
-    - uses: iranzo/gh-pages-pelican-action@0.0.1
+    - uses: iranzo/gh-pages-pelican-action@0.0.5
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         SOURCE_FOLDER: content
