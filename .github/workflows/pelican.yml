@@ -8,7 +8,7 @@ on:
     - cron:  '0 0 * * *'
 
 jobs:
-  jekyll:
+  pelican:
     runs-on: ubuntu-16.04
     steps:
     - uses: actions/checkout@v2
