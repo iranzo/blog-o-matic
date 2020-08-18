@@ -16,10 +16,19 @@ jobs:
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
     - uses: actions/cache@v2.1.0
       with:
-        path: ~/.cache/pip
+        path: |
+          ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements/*') }}
         restore-keys: |
           ${{ runner.os }}-pip-
+
+    - uses: actions/cache@v2.1.0
+      with:
+        path: |
+          ~/.cache/peru
+        key: ${{ runner.os }}-peru-${{ hashFiles('**/peru.yaml/*') }}
+        restore-keys: |
+          ${{ runner.os }}-peru-
 
     - uses: iranzo/gh-pages-pelican-action@1.0
       env:
