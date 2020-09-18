@@ -34,3 +34,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         SOURCE_FOLDER: content
+        PELICAN_CONFIG_FILE: publishconf.py
