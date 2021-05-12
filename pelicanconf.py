@@ -7,6 +7,13 @@ import datetime
 # ---------------------------------------------------------------------
 
 AUTHOR = "A blog-o-matic user"
+AUTHORS = {
+    "Pablo Iranzo Gómez": {
+        "blurb": """ opensource enthusiast and Lego fan doing some python simple programs like @redken_bot in telegram, etc""",
+        "url": "https://iranzo.github.io",
+        "avatar": "https://avatars.githubusercontent.com/u/312463",
+    },
+}
 SITENAME = "My personal blog with blog-o-matic"
 SITESUBTITLE = "This is where I do test things"
 SITEURL = "/"
