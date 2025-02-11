@@ -9,7 +9,7 @@ repos:
     -   id: prettier
         files: \.(css|js|md|markdown|json)
 -   repo: https://github.com/psf/black
-    rev: 24.10.0
+    rev: 25.1.0
     hooks:
     -   id: black
 -   repo: https://github.com/pre-commit/pre-commit-hooks
@@ -57,7 +57,7 @@ repos:
         types:
         - shell
 -   repo: https://github.com/asottile/blacken-docs
-    rev: 1.19.0
+    rev: 1.19.1
     hooks:
     -   id: blacken-docs
 -   repo: https://github.com/hcodes/yaspeller.git
