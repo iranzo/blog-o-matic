@@ -43,7 +43,6 @@ Blog will be using:
       ![gh pages enabled](2019-01-09-11-36-48.png)
       - Validate that the URL now works (<https://iranzo.github.io/blog-o-matic/>)
 - Clone the resulting repository to your system, for example:
-
   - `git clone https://github.com/iranzo/blog-o-matic.git`
   - change to the `master` branch that will contain the code that we'll be using for updating the website.
     - `git checkout master` (should be the default)
