@@ -28,7 +28,6 @@ repos:
         args:
         - --unsafe
     -   id: end-of-file-fixer
-    -   id: fix-encoding-pragma
     -   id: forbid-new-submodules
     -   id: no-commit-to-branch
         args:
@@ -37,6 +36,10 @@ repos:
     -   id: requirements-txt-fixer
     -   id: sort-simple-yaml
     -   id: trailing-whitespace
+-   repo: https://github.com/asottile/pyupgrade
+    rev: v3.20.0
+    hooks:
+    -   id: pyupgrade
 -   repo: https://github.com/PyCQA/flake8
     rev: 7.3.0
     hooks:
